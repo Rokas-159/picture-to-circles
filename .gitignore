@@ -1,0 +1,6 @@
+output.jpg
+
+data/*.jpg
+data/*.png
+
+!*.example.jpg
