@@ -6,9 +6,12 @@ This is a [Processing](https://processing.org) project. It can be opened, used a
 
 It is used to convert simple images into an images that are made out of a bunch of one-color circles put one on another.
 
+### Note: 
+The documentation is outdated and is only made for the circle filter part. To use only the documented part make sure `CUSTOM_SRC_FILE`, `SHIFT_MODE` and `IGNORE_BLACK` are all set to `false`.
+
 ## Converting a picture
 
-To convert a picture, change the image path in the 20th line of `picture_to_circles.pde` to your desired picture. Change the size numbers in the 19th line to match your picture's dimensions. Then just run the application and the picture will be converted. It will be displayed on the screen and saved as a `.jpg` file inside the project directory as well.
+To convert a picture, change the image path in the 28th line of `picture_to_circles.pde` to your desired picture. Change the size numbers in the 27th line to match your picture's dimensions. Then just run the application and the picture will be converted. It will be displayed on the screen and saved as a `.jpg` file inside the project directory as well.
 
 ## How the output works
 
